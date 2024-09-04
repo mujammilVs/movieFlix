@@ -1,0 +1,53 @@
+/* src/App.css */
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.menu{
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.menu ul li a:hover {
+  background-color: #555;
+}
+
+.menu-screen {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-screen h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+.shadow-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
